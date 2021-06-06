@@ -1,0 +1,36 @@
+{
+  "name": "chafull",
+  "version": "1.0.0",
+  "description": "Chafull helper library",
+  "main": "./dist/chafull.js",
+  "scripts": {
+    "build": "webpack --mode=production --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chafull/chafull-node.git"
+  },
+  "keywords": [
+    "chafull",
+    "sms",
+    "rest",
+    "api"
+  ],
+  "author": "RD Team <rd-team@chafull.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chafull/chafull-node/issues"
+  },
+  "homepage": "https://github.com/chafull/chafull-node#readme",
+  "types": "./dist/chafull.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "webpack": "^5.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}
